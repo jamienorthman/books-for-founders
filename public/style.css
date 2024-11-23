@@ -1,0 +1,210 @@
+html
+{
+    font-family: sans-serif;
+    background: linear-gradient(white, lightgray);
+}
+
+/*#banner-section
+{
+    width: 100%;
+    background-image: url("banner.webp");
+    min-height: 10rem;
+}*/
+
+h1
+{
+    font-size: 300%;
+}
+
+h1, h2, .iconrow
+{
+    text-align: center;
+}
+
+h2
+{
+    margin-bottom: 2.5rem;
+}
+
+h3
+{
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+h1, h3
+{
+    color: #007d97;
+}
+
+h4
+{
+    margin-bottom: 0.5rem;
+}
+
+p
+{
+    margin: 0.5rem 0;
+}
+
+.main-container
+{
+    max-width: 49rem;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.iconrow
+{
+    font-size: 180%;
+}
+
+.summary-banner
+{                            
+    background: linear-gradient(#003d48, #67002e);
+    padding-right: 0.3rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 4px #00000052;
+    color: white;
+    font-size: 120%;
+}
+
+ul 
+{
+    list-style-type: "✅";
+}
+
+li
+{
+    padding: 0.5rem;
+}
+
+.book-card
+{
+    background: white;
+    text-align: left;
+    margin: 0.75rem 0.25rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 1px solid #007d97;
+    box-shadow: 0px 0px 4px #00000052;
+    background-image: white /*url("images/books.webp")*/;
+    max-width: 20rem;
+    display: inline-block;
+}
+
+.book-card-list
+{
+    text-align: center;
+}
+
+.coverimage-container
+{
+    float: right;
+    height: 180px;
+    border: 1px solid lightgray;
+}
+
+.clearfix
+{
+    clear: both;
+}
+
+.coverimage
+{
+    width: 100%;
+}
+
+.table-stars-container
+{
+    background: #404040;
+    max-width: 20rem;
+    padding: 0.5rem;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+}
+
+.table-stars td
+{
+    line-height: 1.5rem;
+    color: white;
+    padding: 0 0 0 0.4rem;   
+    font-size: 90%;          
+}
+
+.stars
+{
+    padding: 0 0.5rem 0 0.25rem;
+    color: gold;
+    font-size: 150%;                
+}
+
+.quick-summary, .detailed-summary
+{
+    font-size: 90%;
+}
+
+.detailed-summary a
+{
+    color: #007d97;
+    font-weight: bold;
+}
+
+.quick-summary
+{
+    overflow: hidden;
+    height: 5.75rem;
+}
+
+.button-area
+{
+    width: 100%;
+    text-align: center;
+}
+
+.favorite-button
+{
+    display: inline-block;
+    width: 18rem;
+    color: white;
+    background: #007d97;
+    border: 1px solid #007d97;
+    border-radius: 0.5rem;
+    margin: 1.2rem 0 0 0;
+    padding: 1rem;
+}
+
+.favorite-button:hover
+{
+    background: white;
+    color: #007d97;
+    cursor: pointer;
+}
+
+.toolbar-area
+{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.filtertool
+{
+    display: inline-block;
+    background: #007d97;
+    border: 1px solid #007d97;
+    color: white;
+    margin: 0.25rem 0;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    font-size: 90%;
+    padding: 0.5rem;
+}
+
+.filtertool:hover
+{
+    cursor: pointer;
+    background: white;
+    color: #007d97;
+}
