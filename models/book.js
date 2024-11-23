@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const productSchema = new mongoose.Schema({
+const bookSchema = new mongoose.Schema({
     title: {
         type: String,
         required: [true, 'Title cannot be blank']
@@ -27,6 +27,6 @@ const productSchema = new mongoose.Schema({
 })
 
 // Compile model
-const Book = mongoose.model('Book', productSchema)
+const Book = mongoose.model('Book', bookSchema)
 
 module.exports = Book
